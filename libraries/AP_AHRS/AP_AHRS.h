@@ -448,6 +448,7 @@ public:
 #if AP_AHRS_EXTERNAL_ENABLED
         EXTERNAL = 11,
 #endif
+        NONE = 255
     };
 
     // set the selected ekf type, for RC aux control
